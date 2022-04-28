@@ -153,9 +153,9 @@
 		1C8C260F2814E44A00D5B0B4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				1C8C25E32814E35100D5B0B4 /* MovieDetailViewController.swift */,
-				1C8C26122815067C00D5B0B4 /* MovieItemTableViewCell.swift */,
 				1C8C261C2815744400D5B0B4 /* MoviesListTableViewController.swift */,
+				1C8C26122815067C00D5B0B4 /* MovieItemTableViewCell.swift */,
+				1C8C25E32814E35100D5B0B4 /* MovieDetailViewController.swift */,
 				1C8C261E28159AED00D5B0B4 /* MovieDetailTableViewCell.swift */,
 			);
 			path = ViewControllers;

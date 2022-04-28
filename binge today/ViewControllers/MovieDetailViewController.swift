@@ -21,6 +21,7 @@ class MovieDetailViewController: UIViewController {
         movieModel = MovieDetailViewModel.init(with: self.movieID)
         movieModel?.delegate = self
         self.detailTableView.sendSubviewToBack(headerView)
+        releaseStatus.isHidden = true
     }
     
 }
@@ -46,6 +47,7 @@ extension MovieDetailViewController: UITableViewDelegate, UITableViewDataSource 
 extension MovieDetailViewController: MovieDetailViewModelDelegate {
     func needToReloadData(status: String?) {
         self.detailTableView.reloadData()
+        releaseStatus.isHidden = false
         releaseStatus.text = status
     }
 }
